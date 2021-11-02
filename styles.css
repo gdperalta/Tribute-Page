@@ -7,10 +7,6 @@ html, body {
     font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
 }
-a {
-    color: white;
-    text-decoration: none;
-}
 
 #header {
     color: silver;
@@ -35,8 +31,24 @@ a {
     }
 
         .nav {
-            padding: 45px;
+            margin: 40px;
+            padding: 5px;
+            border-radius: 4px;
         }
+        
+        .nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+            .nav:hover {
+                background: gainsboro;
+            }
+
+            .nav:hover a {
+                color: black;
+
+            }
 
 #home {
     background: url(images/Elon_musk.png);
@@ -159,6 +171,11 @@ a {
                 padding: 10px;
                 border-radius: 10px;
             }
+
+                #tribute-link a {
+                    color: white;
+                    text-decoration: none;
+                }
             
         #tribute-info {
             grid-column: 3;
